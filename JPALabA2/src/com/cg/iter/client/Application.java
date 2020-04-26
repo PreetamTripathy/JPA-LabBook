@@ -1,21 +1,15 @@
 package com.cg.iter.client;
 
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
-
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.Persistence;
 
 import com.cg.iter.entities.Author;
 import com.cg.iter.entities.Book;
 import com.cg.iter.service.AuthorBookServiceImpl;
 import com.cg.iter.service.AuthorBookService;
-import com.cg.iter.service.AuthorBookServiceImpl;
+
 
 public class Application {
 
